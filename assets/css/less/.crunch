@@ -1,0 +1,80 @@
+{
+	"files": {
+		"styles.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../styles.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"variables.less",
+				"navbar.less",
+				"importer.less",
+				"hover.less",
+				"footer.less",
+				"breakpoints.less",
+				"base.less",
+				"Content.less"
+			]
+		},
+		"importer.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../styles.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"variables.less",
+				"navbar.less",
+				"hover.less",
+				"footer.less",
+				"breakpoints.less",
+				"base.less",
+				"Content.less"
+			]
+		},
+		"import.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../styles.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"Content.less",
+				"base.less",
+				"breakpoints.less",
+				"footer.less",
+				"hover.less",
+				"navbar.less",
+				"variables.less"
+			]
+		}
+	}
+}
